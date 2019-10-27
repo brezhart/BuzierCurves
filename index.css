@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+
+}
+canvas{
+    position: absolute;
+}
+#cont{
+    position: fixed;
+    top: 10px;
+    right: 5px;
+
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 0;
+    border: none;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(0.9);
+}
+#diy{
+    background-color: salmon;
+}
+#twitterCont{ display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#stopPlayBtn{
+    position: fixed;
+}
